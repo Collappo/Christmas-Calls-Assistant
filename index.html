@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asystent Kolędowy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    @import "tailwindcss";
+
+    :root {
+      /* Default to a premium dark aesthetic */
+      --bg: #020617;
+      --bg-gradient: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --card-bg: rgba(30, 41, 59, 0.6);
+      --card-border: rgba(255, 255, 255, 0.05);
+
+      --primary: #15803d;
+      --primary-soft: rgba(21, 128, 61, 0.1);
+      --primary-soft-border: rgba(21, 128, 61, 0.15);
+    }
+
+    /* Themes override primary colors only */
+    [data-theme="blue"] {
+      --primary: #1d4ed8;
+      --primary-soft: rgba(29, 78, 216, 0.1);
+      --primary-soft-border: rgba(29, 78, 216, 0.15);
+    }
+
+    [data-theme="purple"] {
+      --primary: #7e22ce;
+      --primary-soft: rgba(126, 34, 206, 0.1);
+      --primary-soft-border: rgba(126, 34, 206, 0.15);
+    }
+
+    [data-theme="gold"] {
+      --primary: #a16207;
+      --primary-soft: rgba(161, 98, 7, 0.1);
+      --primary-soft-border: rgba(161, 98, 7, 0.15);
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg-gradient);
+      background-attachment: fixed;
+      color: var(--text);
+      transition: background 0.3s ease, color 0.3s ease;
+      margin: 0;
+    }
+
+    .glass {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .glass-theme {
+      background: var(--primary-soft);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--primary-soft-border);
+    }
+
+    .theme-primary {
+      color: var(--primary);
+    }
+
+    .theme-bg-primary {
+      background-color: var(--primary);
+    }
+
+    .theme-border-primary {
+      border-color: var(--primary);
+    }
+
+    .card-shadow {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Global scrollbar for dark mode */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="antialiased min-h-screen dark">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
