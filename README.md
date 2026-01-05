@@ -6,7 +6,7 @@ podsumowanie zebranych ofiar - wszystko lokalnie w przeglądarce.
 
 ---
 
-## ✨ Funkcje
+## 🛠️ Funkcje
 
 - automatyczne statystyki (suma, liczba kolęd, średnia)
 - dodawanie, edycja i usuwanie kolęd
@@ -57,4 +57,5 @@ również z pewnymi ograniczeniami i wadami:
 
 - **Podatność na ataki XSS**  
   W przypadku wystąpienia podatności typu Cross-Site Scripting,
+
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
