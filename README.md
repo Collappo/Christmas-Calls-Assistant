@@ -59,3 +59,7 @@ również z pewnymi ograniczeniami i wadami:
   W przypadku wystąpienia podatności typu Cross-Site Scripting,
 
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
+
+---
+
+## ✨ Aplikacja powstała z użyciem ***Gemini*** od **Google** (konkretnie *`Gemini 3 Flash Preview`*)
