@@ -15,7 +15,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
   onClose
 }) => {
   const themes: { id: Theme; label: string; color: string }[] = [
-    { id: 'green', label: 'Klasyczny', color: '#2ef44fff' },
+    { id: 'green', label: 'Klasyczny', color: '#24bb30' },
     { id: 'blue', label: 'Nowoczesny', color: '#1d4ed8' },
     { id: 'purple', label: 'Dostojny', color: '#7e22ce' },
     { id: 'gold', label: 'Szlachetny', color: '#a16207' },
