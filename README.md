@@ -4,6 +4,7 @@ Asystent Kolędowy to nowoczesna aplikacja internetowa do zarządzania ofiarami 
 Umożliwia zapisywanie kolęd, liczenie odwiedzonych domów oraz automatyczne
 podsumowanie zebranych ofiar - wszystko lokalnie w przeglądarce.
 
+Aplikacja powstała z użyciem ***Gemini*** od **Google** (konkretnie *`Gemini 3 Flash Preview`*)
 ---
 
 ## 🛠️ Funkcje
@@ -61,5 +62,3 @@ również z pewnymi ograniczeniami i wadami:
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
 
 ---
-
-## ✨ Aplikacja powstała z użyciem ***Gemini*** od **Google** (konkretnie *`Gemini 3 Flash Preview`*)
