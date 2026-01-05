@@ -119,7 +119,7 @@ const App: React.FC = () => {
             </div>
           </div>
         ) : (
-          <div className="space-y-5 pb-30">
+          <div className="space-y-5 pb-32">
             {sessions.map((session) => (
               <VisitCard
                 key={session.id}
