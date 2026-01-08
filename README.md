@@ -1,6 +1,6 @@
 # ✨ Asystent Kolędowy 💸
 
-Asystent Kolędowy to nowoczesna aplikacja internetowa do zarządzania ofiarami z wizyt duszpasterkich.
+Asystent Kolędowy to prosta apka internetowa do zarządzania ofiarami z kolęd.
 Umożliwia zapisywanie kolęd, liczenie odwiedzonych domów oraz automatyczne
 podsumowanie zebranych ofiar - wszystko lokalnie w przeglądarce.
 
@@ -62,3 +62,4 @@ również z pewnymi ograniczeniami i wadami:
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
 
 ---
+
