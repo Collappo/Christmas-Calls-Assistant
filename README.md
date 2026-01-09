@@ -30,7 +30,7 @@ Aplikacja powstała z użyciem ***Gemini*** od **Google** (konkretnie *`Gemini 3
 - ⚡**Vite**
 - ⚛️ **React**
 - 🟦 **TypeScript**
-- 🎨 **Tailwindcss**
+- 🎨 **Tailwind CSS**
 
 ---
 
@@ -62,4 +62,5 @@ również z pewnymi ograniczeniami i wadami:
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
 
 ---
+
 
