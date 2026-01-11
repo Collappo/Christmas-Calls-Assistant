@@ -62,5 +62,3 @@ również z pewnymi ograniczeniami i wadami:
   złośliwy kod może uzyskać dostęp do danych zapisanych w `localStorage`.
 
 ---
-
-
